@@ -24,8 +24,8 @@ instalação: pip install tensorflow pandas numpy scikit-learn pillow matplotlib
     │   ├── [IMAGENS_DE_VALIDACAO].png
     │   └── ...
     └── boneage-validation-dataset.csv
-  Obs: para uso em produção, o conjunto de validação separado é crucial
 ```
+Obs: para uso em produção, o conjunto de validação separado é crucial, pois a validação foi extraída do próprio conjunto de treino
 # Pré-processamento dos Dados
  As imagens e os dados foram pré-processados da seguinte forma:
 
