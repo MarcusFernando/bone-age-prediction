@@ -3,8 +3,8 @@ Projeto de Deep Learning para estimativa da idade óssea a partir de imagens de 
 # Objetivo e Resumo do Projeto
 Este projeto tem como objetivo desenvolver um modelo de Deep Learning (Rede Neural Convolucional - CNN) capaz de estimar a idade óssea de indivíduos a partir de imagens de raio-X da mão. O modelo foi treinado em um dataset de imagens de raio-X e busca fornecer uma estimativa precisa em meses.
 # Requisitos e Configuração
-Python 3.x
-TensorFlow / Keras: Framework principal para o modelo de Deep Learning.
+*Python 3.x
+*TensorFlow / Keras: Framework principal para o modelo de Deep Learning.
 pandas: Manipulação e análise de dados.
 numpy: Operações numéricas.
 scikit-learn: Ferramentas para pré-processamento e métricas.
