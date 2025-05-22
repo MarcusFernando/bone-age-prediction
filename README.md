@@ -2,7 +2,7 @@
 Projeto de Deep Learning para estimativa da idade óssea a partir de imagens de raio-X
 # Objetivo e Resumo do Projeto
 Este projeto tem como objetivo desenvolver um modelo de Deep Learning (Rede Neural Convolucional - CNN) capaz de estimar a idade óssea de indivíduos a partir de imagens de raio-X da mão. O modelo foi treinado em um dataset de imagens de raio-X e busca fornecer uma estimativa precisa em meses.
-#Requisitos e Configuração
+# Requisitos e Configuração
 Python 3.x
 TensorFlow / Keras: Framework principal para o modelo de Deep Learning.
 pandas: Manipulação e análise de dados.
@@ -15,14 +15,14 @@ instalação: pip install tensorflow pandas numpy scikit-learn pillow matplotlib
 /content/
 ├── boneage-training-dataset/
 │   ├── boneage-training-dataset/
-│   │   ├── XXXX.png (imagens de treino)
+│   │   ├── [IMAGENS_DE_TREINO].png
 │   │   └── ...
-│   └── boneage-training-dataset.csv (informações sobre as imagens de treino)
+│   └── boneage-training-dataset.csv
 └── boneage-validation-dataset/
     ├── boneage-validation-dataset/
-    │   ├── YYYY.png (imagens de validação)
+    │   ├── [IMAGENS_DE_VALIDACAO].png
     │   └── ...
-    └── boneage-validation-dataset.csv (informações sobre as imagens de validação)
+    └── boneage-validation-dataset.csv
   Obs: para uso em produção, o conjunto de validação separado é crucial
  # Pré-processamento dos Dados
  As imagens e os dados foram pré-processados da seguinte forma:
