@@ -12,6 +12,7 @@ Este projeto tem como objetivo desenvolver um modelo de Deep Learning (Rede Neur
 * matplotlib e seaborn: Visualização de dados (opcional, para análise).
 instalação: pip install tensorflow pandas numpy scikit-learn pillow matplotlib seaborn
 # Estrutura da Base de Dados
+```
 /content/
 ├── boneage-training-dataset/
 │   ├── boneage-training-dataset/
@@ -24,7 +25,8 @@ instalação: pip install tensorflow pandas numpy scikit-learn pillow matplotlib
     │   └── ...
     └── boneage-validation-dataset.csv
   Obs: para uso em produção, o conjunto de validação separado é crucial
- # Pré-processamento dos Dados
+```
+# Pré-processamento dos Dados
  As imagens e os dados foram pré-processados da seguinte forma:
 
 * Redimensionamento de Imagens: Todas as imagens foram redimensionadas para 224x224 pixels.
