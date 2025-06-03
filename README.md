@@ -52,4 +52,4 @@ O modelo alcançou um Mean Absolute Error (MAE) normalizado de aproximadamente 0
 
 * MAE Normalizado na validação: ~0.1516
 * MAE em meses na validação: ~33.95 meses
-Link do melhor modelo salvo em .keras: https://drive.google.com/drive/folders/1YJsWDpn4ctOqwsAAfL76_pl-2KjM2PeF?usp=sharing
+* Link do melhor modelo salvo em .keras: https://drive.google.com/drive/folders/1YJsWDpn4ctOqwsAAfL76_pl-2KjM2PeF?usp=sharing
